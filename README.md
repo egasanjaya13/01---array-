@@ -27,15 +27,15 @@ Dalam Python, array biasanya direpresentasikan menggunakan list.
 
 Contoh pada program:
 
-nilai_mahasiswa = []
+`nilai_mahasiswa = []`
 
 List tersebut digunakan untuk menyimpan nilai mahasiswa yang dimasukkan oleh pengguna.
 
 Nilai dimasukkan menggunakan perulangan:
 
-for i in range(10):
-    angka = int(input("Masukkan nilai mahasiswa ke-"))
-    nilai_mahasiswa.append(angka)
+`for i in range(10):`
+    `angka = int(input("Masukkan nilai mahasiswa {i+1}"))`
+    `nilai_mahasiswa.append(angka)`
 
 Fungsi dari array dalam program ini adalah untuk:
 
@@ -48,11 +48,11 @@ Mempermudah pengolahan data menggunakan perulangan
 Beberapa operasi array yang digunakan dalam program:
 
 Operasi	Fungsi
-append()	Menambahkan data ke dalam array
-max()	Mencari nilai terbesar
-min()	Mencari nilai terkecil
-sum()	Menjumlahkan semua elemen
-len()	Menghitung jumlah data
+`append()`	Menambahkan data ke dalam array
+`max()`	Mencari nilai terbesar
+`min()`	Mencari nilai terkecil
+`sum()`	Menjumlahkan semua elemen
+`len()`	Menghitung jumlah data
 
 ## 🖥 Screenshot Hasil Eksekusi Program
 
@@ -68,14 +68,24 @@ Program menampilkan:
 - Nilai maksimum
 - Nilai minimum
 - Nilai rata-rata
+
+![Hasil Program](img/sc2.png)
+  
 - Jumlah mahasiswa lulus dan tidak lulus
 
-
+![Hasil Program](img/sc3.png)
 
 - Grafik perbandingan nilai
+  
+![Hasil Program](img/sc4.png)
 
 
 - Grafik persentase kelulusan
+
+  
+
+![Hasil Program](img/sc5.png)
+
 
 
 
@@ -114,7 +124,7 @@ Karena fungsi sum() menjumlahkan semua elemen array.
 
 4️⃣ Menghitung Jumlah Mahasiswa Lulus
 for nilai in nilai_mahasiswa:
-    if nilai >= 75:
+    if nilai >= 60:
         jumlah_lulus += 1
 
 Kompleksitas:
@@ -172,13 +182,13 @@ Menggunakan perulangan (loop) untuk memproses data dalam array.
 
 Menggunakan fungsi bawaan Python seperti:
 
-max()
+`max()`
 
-min()
+`min()`
 
-sum()
+`sum()`
 
-len()
+`len()`
 
 Memahami konsep analisis kompleksitas algoritma seperti O(n) dan O(1).
 
