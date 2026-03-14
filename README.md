@@ -19,7 +19,7 @@ Menampilkan grafik batang perbandingan nilai
 
 Menampilkan grafik pie persentase kelulusan menggunakan library matplotlib
 
-🧠 Penjelasan Konsep Array
+## 🧠 Penjelasan Konsep Array
 
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe yang sama dalam satu variabel.
 
@@ -53,3 +53,27 @@ max()	Mencari nilai terbesar
 min()	Mencari nilai terkecil
 sum()	Menjumlahkan semua elemen
 len()	Menghitung jumlah data
+
+## 🖥 Screenshot Hasil Eksekusi Program
+
+Berikut adalah hasil eksekusi program saat dijalankan:
+
+Program menampilkan:
+
+- Input nilai mahasiswa
+
+
+
+- Daftar nilai mahasiswa
+- Nilai maksimum
+- Nilai minimum
+- Nilai rata-rata
+- Jumlah mahasiswa lulus dan tidak lulus
+
+
+
+- Grafik perbandingan nilai
+
+
+- Grafik persentase kelulusan
+
