@@ -62,7 +62,7 @@ Program menampilkan:
 
 - Input nilai mahasiswa
 
-
+![Hasil Program](img/sc1.png)
 
 - Daftar nilai mahasiswa
 - Nilai maksimum
