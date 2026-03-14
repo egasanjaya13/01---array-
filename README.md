@@ -77,3 +77,88 @@ Program menampilkan:
 
 - Grafik persentase kelulusan
 
+
+
+## ⚙️ Analisis Kompleksitas Algoritma
+
+Analisis kompleksitas dilakukan untuk mengetahui efisiensi algoritma yang digunakan.
+
+1️⃣ Input Data Mahasiswa
+for i in range(10):
+    nilai_mahasiswa.append(angka)
+
+Kompleksitas:
+
+O(n)
+
+Karena program harus melakukan input sebanyak n data mahasiswa.
+
+2️⃣ Mencari Nilai Maksimum dan Minimum
+max(nilai_mahasiswa)
+min(nilai_mahasiswa)
+
+Kompleksitas:
+
+O(n)
+
+Karena Python harus mengecek seluruh elemen dalam array untuk menemukan nilai terbesar dan terkecil.
+
+3️⃣ Menghitung Rata-rata
+sum(nilai_mahasiswa)/len(nilai_mahasiswa)
+
+Kompleksitas:
+
+O(n)
+
+Karena fungsi sum() menjumlahkan semua elemen array.
+
+4️⃣ Menghitung Jumlah Mahasiswa Lulus
+for nilai in nilai_mahasiswa:
+    if nilai >= 75:
+        jumlah_lulus += 1
+
+Kompleksitas:
+
+O(n)
+
+Karena program harus memeriksa setiap nilai mahasiswa.
+
+5️⃣ Menampilkan Grafik
+
+Grafik dibuat menggunakan matplotlib.
+
+Kompleksitas:
+
+O(1)
+
+Karena jumlah data grafik tetap (nilai tertinggi dan terendah saja).
+
+📊 Ringkasan Kompleksitas
+Proses	Kompleksitas
+Input nilai	            O(n)
+Mencari max/min	        O(n)
+Menghitung rata-rata	O(n)
+Menghitung kelulusan	O(n)
+Menampilkan grafik	    O(1)
+📈 Visualisasi Data
+
+Program menghasilkan dua jenis grafik:
+
+1️⃣ Grafik Batang
+
+Menampilkan perbandingan:
+
+Nilai tertinggi
+
+Nilai terendah
+
+2️⃣ Grafik Pie
+
+Menampilkan persentase:
+
+Mahasiswa Lulus
+
+Mahasiswa Tidak Lulus
+
+Visualisasi ini membantu memahami data nilai dengan lebih mudah.
+
