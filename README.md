@@ -162,3 +162,28 @@ Mahasiswa Tidak Lulus
 
 Visualisasi ini membantu memahami data nilai dengan lebih mudah.
 
+## 💡 Refleksi Pembelajaran
+
+Dari tugas ini saya mempelajari beberapa hal penting, yaitu:
+
+Memahami konsep array atau list dalam Python untuk menyimpan banyak data dalam satu variabel.
+
+Menggunakan perulangan (loop) untuk memproses data dalam array.
+
+Menggunakan fungsi bawaan Python seperti:
+
+max()
+
+min()
+
+sum()
+
+len()
+
+Memahami konsep analisis kompleksitas algoritma seperti O(n) dan O(1).
+
+Menggunakan library matplotlib untuk membuat visualisasi data.
+
+Memahami bagaimana mengolah data menjadi informasi yang lebih mudah dipahami melalui grafik.
+
+Tugas ini juga membantu meningkatkan pemahaman saya dalam pemrograman Python, struktur data dasar, dan analisis algoritma.
